@@ -1,0 +1,72 @@
+\hypertarget{programme_8cc}{}\doxysection{programme.\+cc File Reference}
+\label{programme_8cc}\index{programme.cc@{programme.cc}}
+
+
+Program that count lines and characters of txt file.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+Include dependency graph for programme.\+cc\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+size\+\_\+t \mbox{\hyperlink{programme_8cc_ac196fea37a95988c963b2188e30e23c9}{count\+Char}} (string linein)
+\begin{DoxyCompactList}\small\item\em Counts the number of characters in a string. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{programme_8cc_a515bcebc8a3afd403d22e1bbfc3390dd}{count\+Line}} (string linein)
+\begin{DoxyCompactList}\small\item\em Counts the number of lines that a string takes up. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{programme_8cc_a3c04138a5bfe5d72780bb7e82a18e627}\label{programme_8cc_a3c04138a5bfe5d72780bb7e82a18e627}} 
+int \mbox{\hyperlink{programme_8cc_a3c04138a5bfe5d72780bb7e82a18e627}{main}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Main function loads in file and tests functions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Program that count lines and characters of txt file. 
+
+\begin{DoxyAuthor}{Author}
+Alexander Gibbs 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2 Dec 2021 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{programme_8cc_ac196fea37a95988c963b2188e30e23c9}\label{programme_8cc_ac196fea37a95988c963b2188e30e23c9}} 
+\index{programme.cc@{programme.cc}!countChar@{countChar}}
+\index{countChar@{countChar}!programme.cc@{programme.cc}}
+\doxysubsubsection{\texorpdfstring{countChar()}{countChar()}}
+{\footnotesize\ttfamily size\+\_\+t count\+Char (\begin{DoxyParamCaption}\item[{string}]{linein }\end{DoxyParamCaption})}
+
+
+
+Counts the number of characters in a string. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em linein} & The string to be analyzed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of characters in the string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{programme_8cc_a515bcebc8a3afd403d22e1bbfc3390dd}\label{programme_8cc_a515bcebc8a3afd403d22e1bbfc3390dd}} 
+\index{programme.cc@{programme.cc}!countLine@{countLine}}
+\index{countLine@{countLine}!programme.cc@{programme.cc}}
+\doxysubsubsection{\texorpdfstring{countLine()}{countLine()}}
+{\footnotesize\ttfamily int count\+Line (\begin{DoxyParamCaption}\item[{string}]{linein }\end{DoxyParamCaption})}
+
+
+
+Counts the number of lines that a string takes up. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em linein} & The string to be analyzed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of lines in the string 
+\end{DoxyReturn}
